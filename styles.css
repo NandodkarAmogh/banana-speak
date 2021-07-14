@@ -27,34 +27,39 @@ main {
     max-width: var(--width-break);
 }
 
-textarea {
+/* textarea {
     box-sizing: border-box;
     display: block;
-    width: 100%;
+    width: 60%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
     font-family: inherit;
-}
+    text-align: center;
+    
+} */
 
 button {
     background-color: var(--primary);
-    border: none;
-    margin: 1rem 0rem;
+    margin: auto;
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
     font-size: large;
+    display: block;
+    /* border: 2px solid black; */
 }
 
 
-#translate-output {
+/* output {
     box-sizing: border-box;
-    width: 100%;
+    width: 60%;
     min-height: 10vh;
     max-height: 20vh;
     overflow:scroll;
     border: 1px solid var(--black);
-}
+    display: block;
+    text-align: center;
+} */
 
 footer {
     position: fixed;
