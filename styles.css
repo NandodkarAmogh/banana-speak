@@ -42,7 +42,7 @@ main {
 button {
     background-color: var(--primary);
     margin: auto;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-family: 'Kalam', cursive;
     font-size: large;
     display: block;
